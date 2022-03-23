@@ -12,10 +12,10 @@ public class Calculadora {
         System.out.println("Digite o segundo número: ");
         b = scan.nextInt();
 
-        double somar = somar(a,b);
-        double subtrair = subtrair(a,b);
-        double multiplicar = multiplicar(a,b);
-        double dividir = dividir(a,b);
+        double somar = somar(a, b);
+        double subtrair = subtrair(a, b);
+        double multiplicar = multiplicar(a, b);
+        double dividir = dividir(a, b);
 
         System.out.println("Somar: " + somar);
         System.out.println("Multiplicação: " + multiplicar);
@@ -25,18 +25,21 @@ public class Calculadora {
     }
 
     public static double somar(double a, double b) {
-        return  a + b;
+        return a + b;
     }
 
-    public static double subtrair(double a, double b){
+    public static double subtrair(double a, double b) {
         return a - b;
+
     }
 
-    public static double multiplicar(double  a, double b){
+    public static double multiplicar(double a, double b) {
         return a * b;
+
     }
 
-    public static double dividir(double a, double b){
+    public static double dividir(double a, double b) {
         return a / b;
+
     }
 }
