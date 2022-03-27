@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Calculadora {
     public static void main(String[] args) {
 
+        /*
+        // Exemplo de uso métodos na prórpia classe - aula do curso dominando IDEs Java
+
         Scanner scan = new Scanner(System.in);
         int a, b;
         System.out.println("Digite o primeiro número: ");
@@ -41,5 +44,16 @@ public class Calculadora {
     public static double dividir(double a, double b) {
         return a / b;
 
+    }
+    */
+    //-------------------------------------------------------------------------------------
+     /*
+     Classe principal dos exercícios da aula de Métodos
+     */
+        System.out.println("Exercício calculadora usando métodos fora da classe principal");
+        CalculadoraMetodos.somar(3,6);
+        CalculadoraMetodos.subtrair(9,1.8);
+        CalculadoraMetodos.multiplicar(7,8);
+        CalculadoraMetodos.dividir(5,2);
     }
 }
